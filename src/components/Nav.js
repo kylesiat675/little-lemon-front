@@ -4,11 +4,13 @@ export default function Nav(){
     return (
     <nav>
         <ul>
-            <li><img src={logo} alt='little lemon logo'></img></li>
+            <img src={logo} alt='little lemon logo'></img>
             <li><a href="google.com">Home</a></li>
-            <li><a href="/menu">Menu</a></li>
             <li><a href="/about">About</a></li>
-            <li><a href="/reserve">Reservation</a></li>
+            <li><a href="/menu">Menu</a></li>
+            <li><a href="/reservation">Reservations</a></li>
+            <li><a href="/order">Order Online</a></li>
+            <li><a href="/login">Login</a></li>
         </ul>
     </nav>
     );
