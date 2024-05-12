@@ -1,46 +1,110 @@
-*{
-  font-family: 'Markazi Text', serif;
-}
 header{
   display: flex;
-  background-color: black;
+  background-color: peachpuff;
+  justify-content: center;
 }
 main{
   display: flex;
-  background-color: blue;
-  justify-content: center;
+  background-color: #495E57;
+  justify-content: left;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 20em;
 }
-
+main div{
+  width: 100em;
+}
 nav{
-  background-color: green;
+  background-color: white;
 }
-nav ul{
+nav li {
+  display: inline;
+  margin-left: 1em;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+}
+ul{
   list-style-type: none;
   text-align: center;
+  align-self: Top;
+  justify-content: center;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
 }
-nav li{
-  display: inline-block;
-  margin-left: 10px;
+a{
+  text-decoration: none;
+  font-size: 16pt;
+  font-weight: bold;
+  color: black;
 }
-
 footer{
   display: flex;
-  background-color: yellow;
   justify-content: center;
+  ;
 }
-
-a[href]{
-  text-decoration: none;
-  font-size: 1.5em;
+footer p{
+  font-size: 25pt;
+  margin-left: 20em;
+  align-self: center;
 }
-
-#copyright{
-  font-weight: bold;
-}
-
 h1{
-  font-size: 64pt;
+  font-size: 30pt;
+  font-family: 'Markezi',serif;
+  color: #F4Ce14;
 }
 h2{
-  font-size: 40pt;
+  font-size: 20pt;
+  font-family: 'Markezi',serif;
+  color: white;
 }
+p{
+  font-size: 15pt;
+  font-family: 'Karla',sans-serif;
+  color:white;
+}
+p li{
+  margin-top: 25pt;
+}
+div h1,h2,p{
+  text-align: left;
+}
+
+/*ID CSS STYLING*/
+#logo{
+  width: 10rem;
+  margin-right: 10em;
+}
+#footer-logo{
+  width: 100pt;
+  height: 150pt;
+  align-self: center;
+}
+#contact-information{
+  text-align: left;
+  font-size: 15pt;
+  font-weight: bold;
+}
+#chef{
+  width: 300pt;
+  height: 200pt;
+  border-radius: 15pt;
+  margin-left: 2em;
+}
+#copyright{
+  color:black;
+  font-weight: bold;
+}
+#background{
+  display: flex;
+  background-color: #495E57;
+  justify-content: left;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 20em;
+}
+#background p{
+  width: 50em;
+}
+
+

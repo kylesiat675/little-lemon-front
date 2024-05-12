@@ -1,18 +1,16 @@
 import './App.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import Main from './components/Main';
+import LemonRouter from './components/LemonRouter';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-    <Header>
-      Homepage
-    </Header>
-    <Nav></Nav>
-    <Main></Main>
-    <Footer></Footer>
+            <Header></Header>
+            <Nav></Nav>
+            <LemonRouter></LemonRouter>
+            <Footer></Footer>
     </>
   );
 }
