@@ -41,11 +41,11 @@ a{
 footer{
   display: flex;
   justify-content: center;
-  ;
+  padding-top: 5em;
 }
 footer p{
   font-size: 25pt;
-  margin-left: 20em;
+  margin-left: 10em;
   align-self: center;
 }
 h1{
@@ -69,6 +69,22 @@ p li{
 div h1,h2,p{
   text-align: left;
 }
+input,select{
+  width: 15rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 5em;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/*CLASS CSS STYLING*/
+.form-grid{
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+}
 
 /*ID CSS STYLING*/
 #logo{
@@ -79,6 +95,7 @@ div h1,h2,p{
   width: 100pt;
   height: 150pt;
   align-self: center;
+  padding-left: 10em;
 }
 #contact-information{
   text-align: left;
@@ -106,5 +123,16 @@ div h1,h2,p{
 #background p{
   width: 50em;
 }
+#background div{
+  padding-right: 25em;
+}
+#submit_reservation{
+  background-color: #495E57;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
 
-
+img{
+  border-radius: 16pt;
+}
