@@ -6,7 +6,7 @@ export default function Menu(){
                 <h1>Menu</h1>
             </div>
             <div>
-                <img src={food} height="300" alt="greek salad"></img>
+                <img id="food" src={food} height="300" alt="greek salad"></img>
             </div>
         </div>
     </>

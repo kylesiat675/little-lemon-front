@@ -7,15 +7,17 @@ main{
   display: flex;
   background-color: #495E57;
   justify-content: left;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  padding-left: 20em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  padding-left: 10em;
+
 }
 main div{
   width: 100em;
 }
 nav{
   background-color: white;
+  font-size: 20pt;
 }
 nav li {
   display: inline;
@@ -23,14 +25,20 @@ nav li {
   justify-content: center;
   text-align: center;
   align-self: center;
+  font-size: 20pt;
+  font-family: 'Karla',sans-serif;
 }
 ul{
   list-style-type: none;
   text-align: center;
-  align-self: Top;
+  align-self: center;
   justify-content: center;
+  font-family: 'Karla',sans-serif;
   padding-top: 10pt;
   padding-bottom: 10pt;
+}
+ul a{
+  font-size: 20pt
 }
 a{
   text-decoration: none;
@@ -41,12 +49,13 @@ a{
 footer{
   display: flex;
   justify-content: center;
-  padding-top: 5em;
+  padding-top: 1em;
 }
 footer p{
   font-size: 25pt;
   margin-left: 10em;
   align-self: center;
+  
 }
 h1{
   font-size: 30pt;
@@ -87,9 +96,12 @@ input,select{
 }
 
 /*ID CSS STYLING*/
+
 #logo{
   width: 10rem;
-  margin-right: 10em;
+  margin-right: 20em;
+  border: 5px solid #495E57;
+  padding: 30px;
 }
 #footer-logo{
   width: 100pt;
@@ -102,15 +114,19 @@ input,select{
   font-size: 15pt;
   font-weight: bold;
 }
+main div{
+  align-self: center;
+}
 #chef{
-  width: 300pt;
-  height: 200pt;
-  border-radius: 15pt;
-  margin-left: 2em;
+  width: 350pt;
+  height: 250pt;
+  border-radius: 10pt;
+  margin-left: 10em;
 }
 #copyright{
   color:black;
   font-weight: bold;
+  font-family: 'Markezi',serif;
 }
 #background{
   display: flex;
@@ -133,6 +149,6 @@ input,select{
   font-size: 1em;
 }
 
-img{
+#food{
   border-radius: 16pt;
 }
